@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -----------------------Fonts ------------------------------------------ */
+
+@font-face {
+  font-family: A;
+  font-weight: 900;
+  src: 
+       url('/public/Fonts/Oswald-Bold.ttf');
+
+}
+
+@font-face {
+  font-family: B;
+  font-weight: 200;
+  src: 
+       url('/public/Fonts/Oswald-ExtraLight.ttf');
+
+}
+
+@font-face {
+  font-family: C;
+  font-weight: 400;
+
+  src: 
+       url('/public/Fonts/Oswald-Regular.ttf');
+
+}
+@font-face {
+  font-family: D;
+  src: 
+       url('/public/Fonts/Oswald-SemiBold.ttf');
+
+}
+
+
+/* -----------------------New styles can be added below ------------------------------------------ */
+
+.MainPage {
+
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 20px;
+  background-color: #282c34;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+.MainBox {
+
+  color: #170249;
+  border: none;
+  height: auto ;
+  padding: 20px ;
+
+  font-family:'Times New Roman', Times, serif;
+  box-shadow: 0 4px 8px rgba(10, 10, 10, 2);
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #010922;
+  width: 100%;
+  height:auto; 
+
+
+}
+h1 {
+  font-family: 'A', sans-serif;
+  color: #1e293b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  
+}
+
+.TaskBox {
+  margin-top: 10px;
+  font-family:'Times New Roman', Times, serif;
+  box-shadow: 0 4px 8px rgba(10, 10, 10, 0.5);
+  border-radius: 15px;
+  border: 1px solid #010922;
+  padding: 15px  ;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.TaskBox:hover {
+  box-shadow: 0 8px 16px rgba(10, 10, 10, 0.5);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #d5def8;
+}
+
+.TaskBox h2,
+.TaskBox p {
+  text-align: left;
+  margin-left: 0px;
+  color: #1e293b;
+
+}
+
+.button-container {
+  width: 100% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.add-task-box {
+  position: fixed;   
+  bottom: 20px;   
+  right: 20px;       
+  background: white; 
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 
+}
+
+
