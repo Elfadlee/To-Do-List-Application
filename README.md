@@ -48,10 +48,8 @@ src/
 public/
 │── index.html
 package.json
-```
 
-
----
 
 License
 This project is open-source and free to use or modify.
+Author Developed by*Najeh Elfadlee
